@@ -119,8 +119,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     }
 
                     // Converter a distância total de metros para quilômetros e exibir
-                    const totalDistanceKm = (totalDistance / 1000).toFixed(2);
-                    summaryPanel.innerHTML = `<h3>Total percorrido: ${totalDistanceKm} km</h3>`;
+                    const totalDistanceKm = (totalDistance / 1000).toFixed(0);
+                    summaryPanel.innerHTML = `<h2>${totalDistanceKm} - km</h2>`;
                 } else {
                     alert('Não foi possível calcular a rota: ' + status);
                 }
