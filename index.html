@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rota de Cidades no Ceará</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOND_6avDbbH9If6mEimfMQyAbMIxHe78&libraries=places"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+        <img class="logo" src="./logo.png" alt="">
+        <div id="result"></div>
+        </div>
+        <form id="routeForm">
+          <div class="box_form">
+            <div class="botoes">
+                <button type="button" id="addCityButton">Adicionar</button>
+                <button type="button" id="clearAllButton">Limpar</button>
+                <button type="submit" class="gerar">Gerar</button>
+                  <label class="flag">
+                    <input type="checkbox" id="flagAgir" checked>FX
+                  </label>
+            </div>
+            <div id="cityInputs"></div>
+      </form>      
+        <div id="map"></div>
+    </div>
+    <script src="/main.js"></script>
+</body>
+</html>
