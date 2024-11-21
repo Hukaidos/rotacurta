@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 20px;
   background-color: #13023a;
-  align-items: center;
 }
 
 .logo{
@@ -14,7 +13,7 @@ body {
 }
 
 .container {
-  width: 300px;
+  width: 330px;
   margin: auto;
   padding: 10px;
   background: rgb(38, 124, 139);
